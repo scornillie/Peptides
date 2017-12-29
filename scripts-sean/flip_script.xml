@@ -1,0 +1,19 @@
+<ROSETTASCRIPTS>
+        <SCOREFXNS>
+        </SCOREFXNS>
+        <RESIDUE_SELECTORS>
+        </RESIDUE_SELECTORS>
+        <TASKOPERATIONS>
+        </TASKOPERATIONS>
+        <FILTERS>
+        </FILTERS>
+        <MOVERS>
+                <FlipChiralityMover name="flip" />
+        </MOVERS>
+        <APPLY_TO_POSE>
+        </APPLY_TO_POSE>
+        <PROTOCOLS>
+                <Add mover="flip" />
+        </PROTOCOLS>
+        <OUTPUT />
+</ROSETTASCRIPTS>
