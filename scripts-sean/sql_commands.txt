@@ -1,0 +1,14 @@
+delete from data
+where rowid not in (
+  select min(rowid)
+  from data
+  group by sequence
+  )
+
+
+delete from data
+where mmpbsa_chainsABC_peptide123 not in (
+  select min(mmpbsa_chainsABC_peptide123)
+  from data
+  group by sequence
+)
